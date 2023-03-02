@@ -1,11 +1,11 @@
-About mkdocs-git-revision-date-localized-plugin
-===============================================
+About mkdocs-git-revision-date-localized-plugin-feedstock
+=========================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-git-revision-date-localized-plugin-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-git-revision-date-localized-plugin-feedstock/blob/main/LICENSE.txt)
 
 Summary: MkDocs plugin that enables displaying the date of the last git modification of a page.
 

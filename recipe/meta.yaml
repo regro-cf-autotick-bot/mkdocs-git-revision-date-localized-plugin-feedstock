@@ -1,5 +1,5 @@
 {% set name = "mkdocs-git-revision-date-localized-plugin" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 38517e2084229da1a1b9460e846c2748d238c2d79efd405d1b9174a87bd81d79
+  sha256: 7752edd7c4dcaa9383e9a5b6a4f729831a62d604b0c43b319331127720c6a2bf
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - mkdocs >=1.0
     - gitpython 
     - babel >=2.7.0
+    # - pytz 
 
 test:
   imports:
